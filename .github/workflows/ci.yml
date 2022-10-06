@@ -9,7 +9,7 @@ jobs:
       - uses: RafikFarhad/push-to-gcr-github-action@v4.1
         with:
           gcloud_service_key: ${{ secrets.GCLOUD_SERVICE_KEY }}
-          registry: us-central1-docker.pkg.dev/plmgo-316515/mycontainers
+          registry: gcr.io
           project_id: plmgo-316515
           image_name: py-scapper
           image_tag: latest
